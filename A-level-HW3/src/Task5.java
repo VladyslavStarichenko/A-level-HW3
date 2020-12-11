@@ -13,7 +13,7 @@ public class Task5 {
         }
 
         for (int i = 0; i < testArray.length; i++) {
-            if (testArray[i] != 0) {
+            if (testArray[i]%2 == 0) {
                 testArray[i] = 0;
             }
         }
